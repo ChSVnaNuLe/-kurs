@@ -1,0 +1,350 @@
+$var1: #cccccc
+$var2: #1d2327
+$var3: #00ba37
+$var4: #ffffff
+$var5: #4CAF50
+$var6: #f9f9f9
+$var7: #f1f1f1
+$var8: #3e8e41
+$var9: #434445
+
+font-face
+	font-family: "CenturyGothicRegular"
+  src: url("D:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.eot")
+	src: url("D:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype")
+	font-style: normal
+	font-weight: bold
+
+font-face
+	font-family: "FregatBold"
+	src: url("D:/Курсач/Сайт/fonts/FregatBold/FregatBold.eot")
+	src: url("D:/Курсач/Сайт/fonts/FregatBold/FregatBold.eot?#iefix")format("embedded-opentype")
+	font-style: normal
+	font-weight: normal
+
+p
+	margin-top: 0
+
+h1
+	margin-top: 5px
+	margin-bottom: 10px
+
+body
+	margin: 0
+	padding: 0
+
+button
+	background-color: @var1
+	box-shadow: 0 0 4px black
+	border-radius: 10px
+
+.header
+	width: 100%
+	height: 37px
+	background: @var2
+
+media (min-width:1600px)
+	width: 1700px
+	height: 37px
+	margin-left: auto
+	margin-right: auto
+
+media (max-width:1250px)
+	display: none
+
+.top
+	padding-top: 7px
+
+div#search
+	position: relative
+	top: -9px
+	right: 0
+	float: right
+	width: 339px
+	height: 39px
+	background: @var1
+	div.search
+		display: block
+		width: 100%
+		overflow: hidden
+
+
+.lupa
+	display: block
+	float: left
+	width: 20px
+	height: 20px
+	margin: 10px 14px 0 17px
+
+input
+	float: left
+	width: 73%
+	height: auto
+	margin: 6px 0 0
+	outline: none
+	padding: 0
+	border: 0
+	border-bottom: 1px solid Black
+	font-size: 1.25em
+	background: 0
+	opacity: 1
+
+.clear
+	float: left
+	width: 11px
+	height: 11px
+	margin: 15px 0 0 10px
+	background: url(D:/Курсач/Сайт/IMG/clear.png)
+
+.contact
+	float: right
+	position: relative
+	margin: 0
+
+.buttomcontact
+	margin-top: 0
+	margin-bottom: 0
+	display: block
+
+.buttoms
+	display: inline-block
+	padding: 0 38px 0 30px
+
+.link1
+	text-decoration: none
+	color: grey
+	font-family: fantasy
+	letter-spacing: 0.4px
+	&:hover
+		text-decoration: none
+		color: white
+		font-family: fantasy
+		letter-spacing: 0.4px
+		border-bottom: 3px solid @var3
+
+	&:active
+		text-decoration: none
+		color: white
+		font-family: fantasy
+		letter-spacing: 0.4px
+		border-bottom: 3px solid @var3
+
+
+.underheader
+	position: relative
+	background: @var4
+	width: 100%
+
+media (min-width:1600px)
+	width: 1700px
+	height: 75px
+	margin-left: auto
+	margin-right: auto
+
+.under
+	padding: 0 20px
+	clear: both
+	height: 75px
+
+.logo
+	float: left
+	width: 200px
+	height: 50px
+	margin-top: 12px
+	&1
+		width: 100%
+		height: 100%
+
+
+.navigation
+	display: flex
+	float: right
+	margin: 35px 0 0 0
+
+media (max-width:1024px)
+	display: none
+
+.link2
+	text-decoration: none
+	color: black
+	font-size: 20px
+	font-weight: bold
+	font-family: monospace
+	letter-spacing: 0.4px
+	background: linear-gradient(to right, white, white),
+      linear-gradient(to right, @var1, @var5, rgba(0, 100, 200, 1))
+	background-size: 100% 0.1em, 0 0.1em
+	background-position: 100% 100%, 0 100%
+	background-repeat: no-repeat
+	transition: background-size 400ms
+	&:hover
+		background-size: 0 0.1em, 100% 0.1em
+
+
+.dropbtn
+	background-color: @var5
+	color: white
+	padding: 16px
+	font-size: 16px
+	border: none
+	cursor: pointer
+
+.dropdown
+	margin-top: 7px
+	position: relative
+	display: inline-block
+	float: right
+	&-content
+		display: none
+		position: absolute
+		right: 0
+		background-color: @var6
+		min-width: 160px
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+		z-index: 1
+		a
+			color: black
+			padding: 12px 16px
+			text-decoration: none
+			display: block
+			&:hover
+				background-color: @var7
+
+
+
+	&:hover .dropdown-content
+		display: block
+
+	&:hover .dropbtn
+		background-color: @var8
+
+
+media (min-width:1024px)
+	display: none
+
+.slideshow
+	width: 100%
+	height: 500px
+
+media (max-width:1024px)
+	width: 100%
+	max-width: 1024px
+	height: 400px
+
+media (min-width:1600px)
+	width: 1700px
+	height: 500px
+	margin-left: auto
+	margin-right: auto
+
+media (max-width:1200px)
+	width: 100%
+	height: 10%
+	margin-left: auto
+	margin-right: auto
+
+media (max-width:1024px)
+	display: none
+
+.mainhistory
+	max-width: 1700px
+	margin: auto
+	font-family: "FregatBold"
+	font-size: 20px
+
+.images
+	max-width: 300px
+	max-height: 300px
+	margin-top: 10px
+
+#images
+	float: left
+	margin: 5px
+
+#image
+	float: right
+	margin: 5px
+
+media (max-width:1024px)
+	display: flex
+	flex-direction: column
+
+.card
+	display: inline-block
+
+.footer
+	display: flex
+	margin-top: 5px
+	width: 100%
+	height: 280px
+	background-color: @var2
+	justify-content: space-between
+
+media (min-width:1600px)
+	width: 1700px
+	height: 280px
+	margin-left: auto
+	margin-right: auto
+
+.colum1, .colum2, .colum3, .colum4
+	color: @var9
+
+media (max-width:1024px)
+	display: none
+
+.colum1
+	margin-left: 20px
+
+.colum4
+	margin-right: 20px
+
+.icon
+	display: inline-block
+	width: 40px
+	height: 40px
+	stroke-width: 0
+	stroke: currentColor
+	fill: @var9
+	&:hover
+		fill: white
+
+
+.underfooter
+	border-top: 1px solid grey
+	width: 100%
+	height: 120px
+	background-color: @var2
+	justify-content: space-between
+
+media (min-width:1600px)
+	width: 1700px
+	height: 100px
+	margin-left: auto
+	margin-right: auto
+
+.unit
+	display: flex
+	justify-content: space-between
+
+.links
+	color: @var9
+	text-decoration: none
+	font-family: "CenturyGothicRegular"
+	font-size: 15px
+	&:hover
+		color: white
+
+
+.last
+	text-align: center
+	color: @var9
+	text-decoration: none
+	font-family: "CenturyGothicRegular"
+	font-size: 15px
+
+.colum
+	color: @var9
+	text-decoration: none
+	font-family: "CenturyGothicRegular"
+	&:hover
+		color: white
