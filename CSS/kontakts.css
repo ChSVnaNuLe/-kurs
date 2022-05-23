@@ -1,18 +1,18 @@
 @font-face {
     font-family: "CenturyGothicRegular";
-    src: url("F:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
-    src: url("F:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
-    url("F:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.woff") format("woff"),
-    url("F:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CenturyGothicRegular/CenturyGothicRegular.woff") format("woff"),
+    url("../fonts/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: bold;
 }
 @font-face {
 			font-family: "FregatBold";
-			src: url("F:/Курсач/Сайт/fonts/FregatBold/FregatBold.eot");
-			src: url("F:/Курсач/Сайт/fonts/FregatBold/FregatBold.eot?#iefix")format("embedded-opentype"),
-			url("F:/Курсач/Сайт/fonts/FregatBold/FregatBold.woff") format("woff"),
-			url("F:/Курсач/Сайт/fonts/FregatBold/FregatBold.ttf") format("truetype");
+			src: url("../fonts/FregatBold/FregatBold.eot");
+			src: url("../fonts/FregatBold/FregatBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/FregatBold/FregatBold.woff") format("woff"),
+			url("../fonts/FregatBold/FregatBold.ttf") format("truetype");
 			font-style: normal;
 			font-weight: normal;
 	}
@@ -89,7 +89,7 @@ input{
   width: 11px;
   height: 11px;
   margin: 15px 0 0 10px;
-  background: url(F:/Курсач/Сайт/IMG/clear.png) no-repeat;
+  background: url(../IMG/clear.png) no-repeat;
 }
 .contact{
   float: right;
