@@ -1,9 +1,9 @@
 @font-face {
     font-family: "CenturyGothicRegular";
-    src: url("D:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
-    src: url("D:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
-    url("D:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.woff") format("woff"),
-    url("D:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
+    src: url("F:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
+    src: url("F:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("F:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.woff") format("woff"),
+    url("F:/Курсач/Сайт/fonts/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: bold;
 }
@@ -76,7 +76,7 @@ input{
   width: 11px;
   height: 11px;
   margin: 15px 0 0 10px;
-  background: url(D:/Курсач/Сайт/IMG/clear.png) no-repeat;
+  background: url(F:/Курсач/Сайт/IMG/clear.png) no-repeat;
 }
 .contact{
   float: right;
